@@ -1,0 +1,14 @@
+HOW TO USE:
+
+1. After download please run install script: From command line type ./install.sh
+2. To be able to use the replay attack, please set a file name for your recording in the file source and file sink blocks in gnuradio. You will also need to set the frequency that the device you are running the replay attack on. If you are unsure of the frequency, you can look up the frequency on fcc.io
+3. To get the DECT6.0 running, please follow the directions within the gr-dect2 folder, I have already modified the  code from  the gr-dect2 project on github but the install process will still install the dependencies for this github library
+4. For any more questions, email benjamin.goud@edu.sait.ca or leave a note on https://github.com/goldenspectre. I will continue to add to this project periodically as I have time.
+
+Good Reference points to understand gnuradio, rf concepts, or the HackRF hardware
+
+
+http://ossmann.blogspot.com/
+https://greatscottgadgets.com/sdr/
+https://www.rtl-sdr.com/hak5-getting-started-hackrf/
+http://www.ni.com/product-documentation/3992/en/
